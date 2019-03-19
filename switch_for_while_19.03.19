@@ -28,3 +28,44 @@ public class test {
 	}
 
 }
+
+
+package java1;
+
+public class test {
+
+	public static void main(String[] args) {
+		//1부터 100까지 홀수의 합 for문 이용하기
+		int sum1 = 0;
+		int sum2 = 0;
+		for(int i = 1; i<=100; i++) {
+			if(i%2 == 1) { 			// i를 2로 나눈다는 뜻 : %    != 다르다  == 같다  나머지가 1이되어야한다는 뜻
+				sum1 = sum1 + i;   // sum+=i 와 같음
+			} else {
+				sum2+= i;
+			}
+		}
+			System.out.println("1~100까지 홀수의 합: " + sum1);
+			System.out.println("1~100까지 짝수의 합: "+ sum2);
+
+}
+}
+
+위에가 아니라면 밑에도 같은 식
+
+package java1;
+
+public class test {
+
+	public static void main(String[] args) {
+		//1부터 100까지 홀수의 합 for문 이용하기
+		int sum1 = 0;
+		
+		for(int i = 1; i<=100; i = i +2) {      //혹은 i++를 수정 --> i++ -->   i = i +2    홀수만 나타내길 원하면 i=i+2
+			sum1+= i;
+		}
+			System.out.println("1~100까지 홀수의 합: " + sum1);
+			
+
+}
+}
