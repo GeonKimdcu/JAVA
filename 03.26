@@ -41,3 +41,5 @@ public enum Week { MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDA
 	}
 
 }
+
+//https://enter.tistory.com/96
