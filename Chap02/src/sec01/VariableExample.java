@@ -1,4 +1,4 @@
-package sec02;
+package sec01;
 
 public class VariableExample {
 

@@ -1,5 +1,5 @@
 //변수의 사용 범위
-package sec02;
+package sec01;
 
 public class VariableScopeExample {
 
