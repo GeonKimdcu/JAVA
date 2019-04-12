@@ -1,11 +1,11 @@
 package sec05;
-// 값 목록으로 배열 생성
+// 값 목록으로 배열 생성 
 public class ArrayCreateByValueListExample1 {
 
 	public static void main(String[] args) {
 		int[] scores = {83, 90, 97};
 		
-		//scores[2] = 79;  생성된 배열에서 값을 바꾸고 싶을 땐 대입 연산자 사용! 
+		//scores[2] = 79;  생성된 배열에서 값을 바꾸고 싶을 땐 대입 연산자 사용!   
 		
 		System.out.println("scores[0] : " + scores[0]);
 		System.out.println("scores[1] : " + scores[1]);
