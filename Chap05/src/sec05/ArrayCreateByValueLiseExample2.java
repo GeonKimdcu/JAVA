@@ -1,5 +1,5 @@
 package sec05;
-// 값의 리스트로 배열 생성
+// 값의 리스트로 배열 생성  
 public class ArrayCreateByValueLiseExample2 {
 
 	public static void main(String[] args) {
