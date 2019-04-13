@@ -1,5 +1,5 @@
 package sec04;
-// 클래스로부터 객체 생성 
+// 클래스로부터 객체 생성     // 실행 클래스!
 public class StudentExample {
 
 	public static void main(String[] args) {
