@@ -4,17 +4,17 @@ public class SingletonExample {
 
 	public static void main(String[] args) {
 		/*
-		  Singleton obj1 = new Singleton();    // ÄÄÆÄÀÏ ¿¡·¯       private ‹š¹®¿¡ ¿ÜºÎ Å¬·¡½º¿¡¼­ ÀĞÀ» ¼ö ¾ø±â ¶§¹®ÀÓ!
-		  Singleton obj2 = new Singleton();		// ÄÄÆÄÀÏ ¿¡·¯
+		  Singleton obj1 = new Singleton();    // ì»´íŒŒì¼ ì—ëŸ¬       private ë¬¸ì— ì™¸ë¶€ í´ë˜ìŠ¤ì—ì„œ ì½ì„ ìˆ˜ ì—†ê¸° ë•Œë¬¸ì„!
+		  Singleton obj2 = new Singleton();		// ì»´íŒŒì¼ ì—ëŸ¬
 		 */
 		
 		Singleton obj1 = Singleton.getInstance();
 		Singleton obj2 = Singleton.getInstance();
 		
-		if(obj1 == obj2) {				// ½Ì±ÛÅæÀº ´ÜÇÏ³ªÀÇ °´Ã¼¸¸ »ı¼ºÇÏ±â ¶§¹®¿¡ °°Àº °´Ã¼¸¦ °¡Áü.
-			System.out.println("°°Àº Singleton °´Ã¼ ÀÔ´Ï´Ù.");
+		if(obj1 == obj2) {				// ì‹±ê¸€í†¤ì€ ë‹¨í•˜ë‚˜ì˜ ê°ì²´ë§Œ ìƒì„±í•˜ê¸° ë•Œë¬¸ì— ê°™ì€ ê°ì²´ë¥¼ ê°€ì§.
+			System.out.println("ê°™ì€ Singleton ê°ì²´ ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("´Ù¸¥ Singleton °´Ã¼ ÀÔ´Ï´Ù.");
+			System.out.println("ë‹¤ë¥¸ Singleton ê°ì²´ ì…ë‹ˆë‹¤.");
 		}
 
 	}
