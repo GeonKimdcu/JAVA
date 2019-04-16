@@ -1,5 +1,5 @@
 package sec10;
-// 정적 멤버 사용
+
 public class Calculator {
 	static double pi = 3.14159;
 	
@@ -8,6 +8,6 @@ public class Calculator {
 	}
 	
 	static int minus(int x, int y) {
-		return x-y;
+		return x -y;
 	}
 }
