@@ -10,6 +10,6 @@ public class MemberService {
 			}
 		}
 		void logout(String id) {
-			System.out.println("·Î±×¾Æ¿ô µÇ¾ú½À´Ï´Ù.");
+			System.out.println("ë¡œê·¸ì•„ì›ƒ ë˜ì—ˆìŠµë‹ˆë‹¤.");
 		}
 }
