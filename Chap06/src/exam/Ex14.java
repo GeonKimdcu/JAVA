@@ -1,13 +1,13 @@
 package exam;
 
 public class Ex14 {
-	// ÇÊµå	
+	// í•„ë“œ
 	String name;
 		String id;
 		String password;
 		int age;
 		
-		// »ý¼ºÀÚ
+		// 
 		Ex14(String name, String id) {
 			 this.name = name;
 			 this.id = id;
