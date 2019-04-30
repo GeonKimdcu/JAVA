@@ -1,6 +1,6 @@
 package exam;
 
-public class Ex14 {
+public class Member {
 	// 필드
 	String name;
 		String id;
@@ -8,7 +8,7 @@ public class Ex14 {
 		int age;
 		
 		// 
-		Ex14(String name, String id) {
+		Member(String name, String id) {
 			 this.name = name;
 			 this.id = id;
 		}
