@@ -1,6 +1,6 @@
-package Chapter05;
-
-public class Q8 {
+package exercise;
+// 주어진 배열의 전체 항목의 합고 평균값을 구해보세요(중첩for문 이용)
+public class Exercise08 {
 
 	public static void main(String[] args) {
 		int[][]array = {
@@ -22,6 +22,11 @@ public class Q8 {
 		avg =(double)sum /count;
 		System.out.println("sum:"+ sum);
 		System.out.println("avg"+ avg);
+
+	
+
+
+
 
 	}
 
