@@ -6,6 +6,6 @@ public class Child extends Parent{
 		System.out.println("Child-method2()");  // ¿Á¡§¿«
 	}
 	public void method3() {
-		System.out.println("Child-method3()");
+		System.out.println("Child-method3()");  
 	}
 }
