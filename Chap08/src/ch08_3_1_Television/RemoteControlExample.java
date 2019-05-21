@@ -12,6 +12,11 @@ public class RemoteControlExample {
 		rc.turnOn();
 		rc.turnOff();
 		rc.setVolume(3);
+		
+		rc = new SmartPhone();
+		rc.turnOn();
+		rc.turnOff();
+		rc.setVolume(4);
 	}
 
 }
