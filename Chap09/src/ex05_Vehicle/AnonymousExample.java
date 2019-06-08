@@ -10,7 +10,7 @@ public class AnonymousExample {
 				new Vehicle() {
 					@Override
 					public void run() {
-				System.out.println("Æ®·°ÀÌ ´Ş¸³´Ï´Ù.");
+				System.out.println("íŠ¸ëŸ­ì´ ë‹¬ë¦½ë‹ˆë‹¤.");
 					}
 				}
 				);
